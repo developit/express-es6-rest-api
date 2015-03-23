@@ -1,0 +1,20 @@
+{
+  "name": "express-es6-rest-api",
+  "version": "0.1.0",
+  "description": "Starter project for an ES6 RESTful Express API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jason Miller <jasonmiller@synacor.com>",
+  "license": "Proprietary",
+  "dependencies": {
+    "babel": "^4.7.16",
+    "body-parser": "^1.12.2",
+    "compression": "^1.4.3",
+    "cors": "^2.5.3",
+    "express": "^4.12.3",
+    "resource-router-middleware": "^0.4.0"
+  }
+}
