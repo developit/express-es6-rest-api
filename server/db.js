@@ -1,4 +1,4 @@
 export default function(callback) {
-	// connect to the database
+	// connect to a database if needed
 	callback();
 }
