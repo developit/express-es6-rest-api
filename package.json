@@ -7,7 +7,7 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Jason Miller <jasonmiller@synacor.com>",
+  "author": "Jason Miller <jason@developit.ca>",
   "license": "Proprietary",
   "dependencies": {
     "babel": "^5.0.10",
