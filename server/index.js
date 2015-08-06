@@ -10,7 +10,9 @@ var app = express();
 app.server = http.createServer(app);
 
 // 3rd party middleware
-app.use(cors());
+app.use(cors({
+	exposedHeaders: ['Link']
+}));
 
 app.use(bodyParser.json({
 	limit : '100kb'
