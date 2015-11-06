@@ -1,6 +1,6 @@
 {
   "name": "express-es6-rest-api",
-  "version": "1.0.0-alpha1",
+  "version": "1.0.0-alpha2",
   "description": "Starter project for an ES6 RESTful Express API",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jason Miller <jason@developit.ca>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/developit/express-es6-rest-api.git"
+  },
   "license": "Proprietary",
   "dependencies": {
     "babel-core": "^6.0.13",
