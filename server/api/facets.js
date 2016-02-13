@@ -12,7 +12,7 @@ export default resource({
 	load(req, id, callback) {
 		var facet = facets.find( facet => facet.id===id ),
 			err = facet ? null : 'Not found';
-		callback(err, user);
+		callback(err, facet);
 	},
 
 	/** GET / - List all entities */
