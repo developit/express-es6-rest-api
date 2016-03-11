@@ -23,6 +23,10 @@ cd express-es6-rest-api
 # Make it your own
 rm -rf .git && git init && npm init
 
+# Install dependencies
+npm install
+
+
 # Run it
 PORT=8080 npm start
 
