@@ -26,7 +26,6 @@ rm -rf .git && git init && npm init
 # Install dependencies
 npm install
 
-
 # Run it
 PORT=8080 npm start
 
