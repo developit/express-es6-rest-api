@@ -17,3 +17,7 @@ npm-debug.log
 node_modules
 server_old
 public
+
+# OS generated stuff
+.DS_Store
+.DS_Store?
