@@ -28,8 +28,8 @@ export default resource({
 	},
 
 	/** GET /:id - Return a given entity */
-	read({ params }, res) {
-		res.json(req.facet);
+	read({ facet }, res) {
+		res.json(facet);
 	},
 
 	/** PUT /:id - Update a given entity */
