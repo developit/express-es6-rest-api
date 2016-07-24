@@ -26,11 +26,11 @@ rm -rf .git && git init && npm init
 # Install dependencies
 npm install
 
-# Run it
-PORT=8080 npm start
+# Start development live-reload server
+PORT=8080 npm run dev
 
-# With nodemon:
-PORT=8080 nodemon
+# Start production server:
+PORT=8080 npm start
 ```
 
 

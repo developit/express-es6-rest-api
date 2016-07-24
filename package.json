@@ -1,18 +1,32 @@
 {
   "name": "express-es6-rest-api",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Starter project for an ES6 RESTful Express API",
-  "main": "index.js",
+  "main": "dist",
   "scripts": {
-    "start": "babel-node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon -w src --exec 'babel-node src --presets es2015,stage-0'",
+    "build": "babel src -s -D -d dist --presets es2015,stage-0",
+    "start": "node dist",
+    "prestart": "npm run -s build",
+    "test": "eslint src"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/developit/express-es6-rest-api.git"
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 7,
+      "sourceType": "module"
+    },
+    "env": {
+      "node": true
+    },
+    "rules": {
+      "no-console": 0,
+      "no-unused-vars": 1
+    }
   },
+  "repository": "developit/express-es6-rest-api",
   "author": "Jason Miller <jason@developit.ca>",
-  "license": "Proprietary",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.13.3",
     "compression": "^1.5.2",
@@ -23,6 +37,9 @@
   "devDependencies": {
     "babel-cli": "^6.9.0",
     "babel-core": "^6.9.0",
-    "babel-preset-es2015": "^6.9.0"
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "eslint": "^3.1.1",
+    "nodemon": "^1.9.2"
   }
 }

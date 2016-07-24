@@ -1,7 +1,7 @@
 import resource from 'resource-router-middleware';
 import facets from '../models/facets';
 
-export default resource({
+export default ({ config, db }) => resource({
 
 	/** Property name to store preloaded entity on `request`. */
 	id : 'facet',
@@ -10,7 +10,7 @@ export default resource({
 	 *  Errors terminate the request, success sets `req[id] = data`.
 	 */
 	load(req, id, callback) {
-		var facet = facets.find( facet => facet.id===id ),
+		let facet = facets.find( facet => facet.id===id ),
 			err = facet ? null : 'Not found';
 		callback(err, facet);
 	},

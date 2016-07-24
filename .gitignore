@@ -1,23 +1,5 @@
-lib-cov
-*.seed
-*.log
-*.csv
-*.dat
-*.out
-*.pid
-*.gz
-
-pids
-logs
-results
-_dev
-bower_components
-
-npm-debug.log
-node_modules
-server_old
-public
-
-# OS generated stuff
+/dist
+/logs
+/npm-debug.log
+/node_modules
 .DS_Store
-.DS_Store?
