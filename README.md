@@ -1,6 +1,8 @@
 Express & ES6 REST API Boilerplate
 ==================================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/developit/express-es6-rest-api.svg)](https://greenkeeper.io/)
+
 [![bitHound Score](https://www.bithound.io/github/developit/express-es6-rest-api/badges/score.svg)](https://www.bithound.io/github/developit/express-es6-rest-api)
 
 This is a straightforward boilerplate for building REST APIs with ES6 and Express.
