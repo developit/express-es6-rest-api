@@ -1,5 +1,13 @@
-Express & ES6 REST API Boilerplate
-==================================
+<h1 align="center">
+  <img width="240" src="http://i.imgur.com/8wWjE38.png">
+    <br />
+    Express & ES6 REST API Boilerplate
+    <br />
+    <br />
+</h1>
+<br />
+
+<h4 align="center">Example with basic HTTP Auth</h4>
 
 [![bitHound Score](https://www.bithound.io/github/developit/express-es6-rest-api/badges/score.svg)](https://www.bithound.io/github/developit/express-es6-rest-api)
 
