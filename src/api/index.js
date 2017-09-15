@@ -17,5 +17,8 @@ export default ({ config, db }) => {
 		res.json({ version });
 	});
 
+	api.get('/v3', (req, res) => {
+		res.json({ version });
+	});
 	return api;
 }
