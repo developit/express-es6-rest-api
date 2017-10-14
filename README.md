@@ -1,8 +1,6 @@
 Express & ES6 REST API Boilerplate
 ==================================
 
-[![bitHound Score](https://www.bithound.io/github/developit/express-es6-rest-api/badges/score.svg)](https://www.bithound.io/github/developit/express-es6-rest-api)
-
 This is a straightforward boilerplate for building REST APIs with ES6 and Express.
 
 - ES6 support via [babel](https://babeljs.io)
@@ -11,6 +9,10 @@ This is a straightforward boilerplate for building REST APIs with ES6 and Expres
 - Body Parsing via [body-parser](https://github.com/expressjs/body-parser)
 
 > Tip: If you are using [Mongoose](https://github.com/Automattic/mongoose), you can automatically expose your Models as REST resources using [restful-mongoose](https://git.io/restful-mongoose).
+
+<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/WbARjbDRQz5y3N6VBEMPU4LW/developit/express-es6-rest-api'>
+  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/WbARjbDRQz5y3N6VBEMPU4LW/developit/express-es6-rest-api.svg' />
+</a>
 
 Getting Started
 ---------------
