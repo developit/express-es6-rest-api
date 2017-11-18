@@ -53,10 +53,6 @@ docker run -p 8080:8080 es6/api-service
 
 ```
 
-Docker Demo
--------------------------
-It's supposed to be pretty easy to take your Docker to your favourite cloud service, here's a demo of what's our Dockerized bolierplate is like: [https://docker-deployment-yudfxfiaja.now.sh/api](https://docker-deployment-yudfxfiaja.now.sh/api)
-
 License
 -------
 
