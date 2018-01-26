@@ -1,5 +1,10 @@
-Express & ES6 REST API Boilerplate
-==================================
+<h1 align="center">
+  <img width="240" src="http://i.imgur.com/8wWjE38.png">
+    <br />
+    Express & ES6 REST API Boilerplate
+    <br />
+</h1>
+<h4 align="center">Example with basic HTTP Auth</h4>
 
 This is a straightforward boilerplate for building REST APIs with ES6 and Express.
 

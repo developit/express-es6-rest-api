@@ -33,14 +33,14 @@
     "cors": "^2.7.1",
     "express": "^4.13.3",
     "morgan": "^1.8.0",
-    "resource-router-middleware": "^0.6.0"
+    "resource-router-middleware": "^0.7.0"
   },
   "devDependencies": {
     "babel-cli": "^6.9.0",
     "babel-core": "^6.9.0",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-stage-0": "^6.5.0",
-    "eslint": "^3.1.1",
+    "eslint": "^4.0.0",
     "nodemon": "^1.9.2"
   }
 }
