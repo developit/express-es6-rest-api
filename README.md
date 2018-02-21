@@ -31,6 +31,10 @@ PORT=8080 npm run dev
 
 # Start production server:
 PORT=8080 npm start
+
+# Now open in browser
+localhost:8080/api
+
 ```
 Docker Support
 ------
