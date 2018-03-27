@@ -17,7 +17,7 @@ Getting Started
 
 ```sh
 # clone it
-git clone git@github.com:developit/express-es6-rest-api.git
+git clone https://github.com/developit/express-es6-rest-api.git
 cd express-es6-rest-api
 
 # Make it your own
