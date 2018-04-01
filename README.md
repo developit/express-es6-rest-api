@@ -17,7 +17,7 @@ Getting Started
 
 ```sh
 # clone it
-git clone git@github.com:developit/express-es6-rest-api.git
+git clone https://github.com/developit/express-es6-rest-api.git
 cd express-es6-rest-api
 
 # Make it your own
@@ -33,8 +33,8 @@ PORT=8080 npm run dev
 PORT=8080 npm start
 
 # curl example
-curl http://localhost:8000/api
-curl http://localhost:8000/api/facets
+curl http://localhost:8080/api
+curl http://localhost:8080/api/facets
 
 ```
 Docker Support
