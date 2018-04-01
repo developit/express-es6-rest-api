@@ -31,6 +31,11 @@ PORT=8080 npm run dev
 
 # Start production server:
 PORT=8080 npm start
+
+# curl example
+curl http://localhost:8000/api
+curl http://localhost:8000/api/facets
+
 ```
 Docker Support
 ------
