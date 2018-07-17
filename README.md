@@ -51,6 +51,17 @@ docker run -p 8080:8080 es6/api-service
 
 ```
 
+
+Vagrant guest OS addendum
+-----
+If the node is being run in a Vagrant guest OS, ```nodemon``` [must be launched in legacy mode](https://stackoverflow.com/questions/37622606/nodejs-nodemon-not-restarting-my-server/41567287#41567287)
+
+package.json:
+
+```json
+"dev": "nodemon -L -w src --exec \"babel-node src --presets es2015,stage-0\""
+```
+
 License
 -------
 
