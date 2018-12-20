@@ -27,12 +27,18 @@ export default ({ config, db }) => resource({
 		res.json(body);
 	},
 
-	/** GET /:id - Return a given entity */
+	/** GET /:id - Return a given entity
+	 *  facet's value is determined by the
+	 *  load() method above
+	 */
 	read({ facet }, res) {
 		res.json(facet);
 	},
 
-	/** PUT /:id - Update a given entity */
+	/** PUT /:id - Update a given entity
+	 *  facet's value is determined by the
+	 *  load() method above
+	 */
 	update({ facet, body }, res) {
 		for (let key in body) {
 			if (key!=='id') {
@@ -42,7 +48,10 @@ export default ({ config, db }) => resource({
 		res.sendStatus(204);
 	},
 
-	/** DELETE /:id - Delete a given entity */
+	/** DELETE /:id - Delete a given entity
+	 *  facet's value is determined by the
+	 *  load() method above
+	 */
 	delete({ facet }, res) {
 		facets.splice(facets.indexOf(facet), 1);
 		res.sendStatus(204);
