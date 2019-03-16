@@ -5,7 +5,7 @@
   "main": "dist",
   "scripts": {
     "dev": "nodemon -w src --exec \"babel-node src --presets es2015,stage-0\"",
-    "build": "babel src -s -D -d dist --presets es2015,stage-0",
+    "build": "babel src --out-dir dist",
     "start": "node dist",
     "prestart": "npm run -s build",
     "test": "eslint src"
@@ -38,6 +38,7 @@
   "devDependencies": {
     "babel-cli": "^6.9.0",
     "babel-core": "^6.9.0",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-stage-0": "^6.5.0",
     "eslint": "^3.1.1",
