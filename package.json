@@ -28,15 +28,23 @@
   "author": "Jason Miller <jason@developit.ca>",
   "license": "MIT",
   "dependencies": {
+    "bluebird": "^3.5.3",
     "body-parser": "^1.13.3",
+    "braces": "^2.3.2",
     "compression": "^1.5.2",
     "cors": "^2.7.1",
     "express": "^4.13.3",
+    "express-session": "^1.15.6",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.19",
     "morgan": "^1.8.0",
-    "resource-router-middleware": "^0.6.0"
+    "passport": "^0.4.0",
+    "passport-strava-oauth2": "^0.1.3",
+    "resource-router-middleware": "^0.6.0",
+    "strava-v3": "^1.14.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.9.0",
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.9.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-es2015": "^6.9.0",
