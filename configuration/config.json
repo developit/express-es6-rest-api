@@ -1,0 +1,12 @@
+{
+	"environmentDescription": "[production|development], overridden by NODE_ENV environment variable",
+	"environment": "production",
+	"logLevelDescription": "[error|warning|info|debug], overridden by LOG_LEVEL environment variable",
+	"logLevel": "warning",
+	"portDescription": "port value overridden by PORT environment variable",
+	"port": 8080,
+	"bodyLimit": "100kb",
+	"corsHeaders": ["Link"],
+	"memoryCheckIntervalDescription": "interval (ms) for printing memory usage to console, 0 to disable",
+	"memoryCheckInterval": 0
+}

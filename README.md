@@ -1,7 +1,7 @@
 Express & ES6 REST API Boilerplate
 ==================================
 
-This is a straightforward boilerplate for building REST APIs with ES6 and Express.
+This is a modified boilerplate for building REST APIs with ES6 and Express forked from [Express & ES6 REST API Boilerplate](https://github.com/developit/express-es6-rest-api)
 
 - ES6 support via [babel](https://babeljs.io)
 - REST resources as middleware via [resource-router-middleware](https://github.com/developit/resource-router-middleware)
@@ -11,27 +11,56 @@ This is a straightforward boilerplate for building REST APIs with ES6 and Expres
 > Tip: If you are using [Mongoose](https://github.com/Automattic/mongoose), you can automatically expose your Models as REST resources using [restful-mongoose](https://git.io/restful-mongoose).
 
 
-
 Getting Started
 ---------------
 
-```sh
-# clone it
-git clone git@github.com:developit/express-es6-rest-api.git
+### clone it
+```
+git clone git@github.com:therightstuff/express-es6-rest-api.git
 cd express-es6-rest-api
+```
 
-# Make it your own
+### Make it your own
+```
 rm -rf .git && git init && npm init
+```
 
-# Install dependencies
+### Install dependencies
+```
 npm install
+```
 
-# Start development live-reload server
+### Configuration
+`config.json` is located in the configuration folder. `port`, `logLevel` and `environment` values can be overridden by environment variables `PORT`, `LOG_LEVEL` and `NODE_ENV` respectively.
+
+### HTTPS
+If you want the server to run in https, ensure that the key and certificate files are in the same folder as `server.key` and `server.cert`
+
+### Start development live-reload server
+```
+npm run dev
+```
+or
+```
 PORT=8080 npm run dev
+```
 
-# Start production server:
+### Start production server:
+```
+npm start
+```
+or
+```
 PORT=8080 npm start
 ```
+
+### Testing
+Tests must be in the `test` folder.
+
+```
+npm run test
+```
+
 Docker Support
 ------
 ```sh
