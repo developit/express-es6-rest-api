@@ -6,6 +6,7 @@ import bodyParser from 'body-parser';
 import initializeDb from './db';
 import middleware from './middleware';
 import api from './api';
+import webhook from './api/webhook';
 import config from './config.json';
 
 let app = express();
@@ -31,6 +32,7 @@ initializeDb( db => {
 
 	// api router
 	app.use('/api', api({ config, db }));
+	app.use('/webhook', webhook({ config, db }));
 
 	app.server.listen(process.env.PORT || config.port, () => {
 		console.log(`Started on port ${app.server.address().port}`);
